@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mozorozov</title>
+        <title>Bảo Hiểm Việt</title>
       </Head>
       <Wrapper pageIndex={1} className="max-w-2xl text-center flex flex-col justify-center">
         <div className="flex sm:justify-between items-center gap-4 sm:gap-0">
@@ -13,6 +13,8 @@ export default function Home() {
         </div>
         <div className="sm:text-[7.2rem] xs:text-7xl text-5xl text-White font-medium">Mozorozov</div>
         <div className="uppercase font-bold xs:text-2xl text-xl text-Orange text-end mt-8">A Frontend <br />developer</div>
+        <div>
+        </div>
       </Wrapper>
     </>
   );

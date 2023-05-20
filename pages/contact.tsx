@@ -9,11 +9,10 @@ export default function contact() {
   return (
     <>
       <Head>
-        <title>Mozorozov | Contact</title>
+        <title>Bảo Hiểm Việt | Hoàng Quốc Bảo</title>
       </Head>
-      <Wrapper
-        pageIndex={4}
-        className="text-White gap-12 flex flex-col justify-center items-center lg:flex-row pt-28 lg:pt-0"
+      <div
+        className="py-64 text-White gap-12 flex flex-col justify-center items-center lg:flex-row pt-28 lg:pt-0"
       >
         <div className="md:px-6 py-6 text-center">
           <div className="uppercase md:text-4xl text-3xl md:tracking-widest tracking-wide font-semibold">
@@ -52,7 +51,7 @@ export default function contact() {
           <button type="submit" className="mt-10 px-8 py-4 shadow-ShadowBlur uppercase text-sm cursor-pointer">Send Message</button>
           </form>
         </div>
-      </Wrapper>
+      </div>
     </>
   );
 }

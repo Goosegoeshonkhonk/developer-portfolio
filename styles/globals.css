@@ -4,13 +4,13 @@
 
 ::-webkit-scrollbar {
   width: 0.75rem;
-  background-color: #b3b2b1;
+  background-color: #b1b1b3;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   width: 0.5rem;
-  background-color: #eeb844;
+  background-color: #444dee;
   border-radius: 10px;
 }
 
@@ -21,5 +21,5 @@
 }
 
 .TextShadow:hover {
-  text-shadow: 0 0 20px #eeb844, 0 0 20px #eeb844, 0 0 20px #eeb844;
+  text-shadow: 0 0 20px #445bee, 0 0 20px #444aee, 0 0 20px #4452ee;
 }

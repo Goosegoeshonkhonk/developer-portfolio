@@ -1,3 +1,5 @@
+import { Url } from "next/dist/shared/lib/router/router";
+
 type WrapperProps = {
   pageIndex: number
   children: React.ReactNode
@@ -7,7 +9,6 @@ type NavLink = {
   path: string;
   label: string;
 };
-
 type Skills = {
   name: string;
   level: number;
@@ -20,6 +21,15 @@ type ProjectProps = {
   img: string;
   name: string;
   tools: string[];
+};
+type PersonalInfor = {
+  id: number;
+  Url: Url;
+  name: string;
+  title: string;
+  email: string;
+  phoneNumber: string;
+  des: string;
 };
 type CountUpProps = {
   start: number
@@ -53,5 +63,6 @@ export {
   countUpItemsProps,
   ProjectProps,
   ServiceProps,
+  PersonalInfor,
   ContactsProps,
 };

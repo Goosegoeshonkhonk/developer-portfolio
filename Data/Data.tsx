@@ -3,6 +3,7 @@ import {
   countUpItemsProps,
   NavLink,
   ProjectProps,
+  PersonalInfor,
   ServiceProps,
 } from "@/Types";
 import { BsVectorPen, BsCode } from "react-icons/bs";
@@ -14,6 +15,9 @@ const navLinks: NavLink[] = [
   { path: "/about", label: "About" },
   { path: "/portfolio", label: "Portfolio" },
   { path: "/contact", label: "Contact" },
+  { path: "/bao", label: "Hoàng Quốc Bảo" },
+  { path: "/phong", label: "Phạm Tuấn Phong" },
+  { path: "/dong", label: "Nguyễn Đông" },
 ];
 
 const services: ServiceProps[] = [
@@ -87,4 +91,10 @@ const contacts: ContactsProps[] = [
   { id: 3, title: "Email", text: "yelinko.2002@gmail.com" },
 ];
 
-export {navLinks, projects, countUpItems, services, skills, contacts };
+const infor: PersonalInfor[] = [
+  { id: 1, Url: "https://profile.baohiem.app/1", name: "Nguyễn Duy Đông", title: "Co-Founder", email: "doitac@baohiem.app", phoneNumber: "0981996868", des: "Be all You can be"},
+  { id: 2, Url: "https://profile.baohiem.app/2", name: "Phạm Tuấn Phong", title: "Co-Founder", email: "doitac@baohiem.app", phoneNumber: "0915456885", des: "YOLO - Đơn giản là sự lựa chọn tốt nhất"},
+  { id: 3, Url: "https://profile.baohiem.app/3", name: "Hoàng Quốc Bảo", title: "Co-Founder", email: "baohq@baohiem.app", phoneNumber: "0387641248", des: "Be all You can be"}
+
+]
+export {navLinks, projects, countUpItems, services, skills, contacts, infor };
